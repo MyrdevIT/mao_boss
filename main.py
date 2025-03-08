@@ -461,14 +461,7 @@ while running:
  
 if game_win_num == 1:
 
-    from asyncio import wait
-    from turtle import delay
-    import pygame
-    import random
-    import math
-    from pygame import mixer
-    from tkinter import messagebox
-
+    
 
 
     pygame.init()
@@ -1016,13 +1009,7 @@ if game_win_num == 1:
 
 
 if game_win_num == 2:
-    from asyncio import wait
-    from turtle import delay
-    import pygame
-    import random
-    import math
-    from pygame import mixer
-    from tkinter import messagebox
+    
     import rotatescreen
     screenm = rotatescreen.get_primary_display()
     start_pos = screenm.current_orientation
@@ -1503,13 +1490,7 @@ if game_win_num == 2:
 
 
 if game_win_num == 3:
-    from asyncio import wait
-    from turtle import delay
-    import pygame
-    import random    
-    import math
-    from pygame import mixer
-    from tkinter import messagebox
+    
 
     pygame.init()
     screen = pygame.display.set_mode((1000, 653))
@@ -1967,13 +1948,7 @@ if game_win_num == 3:
 
 
 if game_win_num == 8:
-    from asyncio import wait
-    from turtle import delay
-    import pygame
-    import random    
-    import math
-    from pygame import mixer
-    from tkinter import messagebox
+    
 
     pygame.init()
     screen = pygame.display.set_mode((1000, 653))
